@@ -333,7 +333,7 @@ def main():
         change = input(
             "\nWant any changes to the story? Type what you'd like "
             "(e.g. 'make it funnier', 'add a dragon').\n"
-            "Press Enter or type "No", to keep the story as is and move on: "
+            "Press Enter or type 'No', to keep the story as is and move on: "
         ).strip()
         if change.lower().rstrip(".!") in NO_CHANGE_ANSWERS:
             break
