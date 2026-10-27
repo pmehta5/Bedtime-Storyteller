@@ -51,14 +51,14 @@ If the listener chooses to hear the story, it is narrated with [edge-tts](https:
 Requires Python 3.9+ and an OpenAI API key.
 
 ```bash
-git clone https://github.com/pmehta5/Bedtime-Story-Agent.git
-cd Bedtime-Story-Agent
+git clone https://github.com/pmehta5/Bedtime-Storyteller.git
+cd Bedtime-Storyteller
 pip install -r requirements.txt
 export OPENAI_API_KEY="your-key"   # never commit this
 python bedtime-storyteller.py
 ```
 
-On Windows PowerShell, set the key with `$env:OPENAI_API_KEY="your-key"`. Alternatively, copy `.env.example` to `.env` and put the key there; the script loads it automatically, and `.env` is git-ignored.
+On Windows PowerShell, set the key with `$env:OPENAI_API_KEY="your-key"`. On Mac terminal, set the key with `export OPENAI_API_KEY="your-key"`. Alternatively, copy `.env.example` to `.env` and put the key there; the script loads it automatically, and `.env` is git-ignored.
 
 Press Enter at the first prompt to use a built-in example request. Narration needs an internet connection.
 
